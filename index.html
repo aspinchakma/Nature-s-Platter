@@ -16,6 +16,56 @@
     />
   </head>
   <body>
-    <h2>Basic setup</h2>
+    <header class="border border-black">
+      <nav
+        class="w-[95%] lg:w-[82.5%] mx-auto flex items-center justify-between py-6"
+      >
+        <img src="assets/nav-logo.png" alt="" />
+        <div class="hidden lg:block">
+          <ul class="flex gap-3">
+            <li>
+              <a
+                class="text-xl hover:text-[#179800] transition duration-700 cursor-pointer font-medium"
+                href="#"
+                >Product</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-xl hover:text-[#179800] transition duration-700 cursor-pointer font-medium"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-xl hover:text-[#179800] transition duration-700 cursor-pointer font-medium"
+                href="#"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="hidden lg:block md:block">
+          <div class="flex items-center gap-3">
+            <i class="fa-solid fa-magnifying-glass text-xl"></i>
+            <i class="fa-solid fa-cart-shopping text-xl"></i>
+            <button
+              class="text-xl bg-[#179800] border border-[#179800] text-white px-3 py-1 block rounded-sm hover:bg-transparent hover:text-[#179800] font-medium cursor-pointer transition duration-700"
+            >
+              Login
+            </button>
+            <button
+              class="text-xl bg-[#179800] border border-[#179800] text-white px-3 py-1 block rounded-sm hover:bg-transparent hover:text-[#179800] font-medium cursor-pointer transition duration-700"
+            >
+              Register
+            </button>
+          </div>
+        </div>
+        <div class="lg:hidden md:hidden">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
